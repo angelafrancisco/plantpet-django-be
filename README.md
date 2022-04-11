@@ -23,13 +23,11 @@ Hosted via Heroku: https://plantpet.herokuapp.com/
 
 
 ## Repositories
-- PlantPet 2.0 React+Django full-stack app:
-    - Front-end: https://github.com/angelafrancisco/plantpet-react-fe
+- PlantPet React + Django full-stack app:
+    - Front-End: https://github.com/angelafrancisco/plantpet-react-fe
     - Back-End: https://github.com/angelafrancisco/plantpet-django-be
 
-- PlantPet 1.0 MERN full-stack app:
-    - Front-End: https://github.com/angelafrancisco/plant-front-end
-    - Back-End: https://github.com/angelafrancisco/plant-back-end
+- _Previous version: PlantPet MERN full-stack app: [Front-End Repo](https://github.com/angelafrancisco/plant-front-end) | [Back-End Repo](https://github.com/angelafrancisco/plant-back-end)_
 
 
 ## User Stories
@@ -44,9 +42,9 @@ Hosted via Heroku: https://plantpet.herokuapp.com/
 
 ## GA Project Requirements (MVP)
 
-- A full-stack application (React and Django)
+- A full-stack application (React + Python/Django)
 - MVC file structure: Models, Views, Controllers (Note: React is views)
-- At least one model with full CRUD
+- At least one new model with full CRUD
 - At least three react components, besides App.js
 - Deployed online and accessible to the public via Heroku
 - Two git repositories, one for backend and one for frontend
@@ -85,8 +83,8 @@ These are additions I wasn't able to get to within project timeframe, but want t
     - User login/logout (username/password authentication)
 - Search functionality for user added plants
 - Upcoming Tasks React component
-- User image upload via Cloudinary
-- Sort plants and tasks by room name or a-z
+- Plant image upload via Cloudinary
+- Sort plants and tasks by room name or alphabetical
 
 
 ## Credits
