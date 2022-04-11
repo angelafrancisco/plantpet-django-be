@@ -2,7 +2,10 @@
 
 **Week 10: April 2022. Project #4 for General Assembly.**
 
-_This project is a continuation of my previous MERN full-stack app, utilizing React and Django instead of React and Node/Express._
+_(Note: This project is a continuation of my previous MERN full-stack app, utilizing React and Django instead of React and Node/Express.)_
+
+![languages-used](https://img.shields.io/github/languages/count/angelafrancisco/plantpet-django-be)
+![languages-top-count](https://img.shields.io/github/languages/top/angelafrancisco/plantpet-django-be?color=brightgreen)
 
 PlantPet - A full-stack web application for the plant obsessed, plant newbies, and aspiring plant parents. Track individual plant watering, add photos, and personalized plant care!
 
@@ -10,6 +13,13 @@ PlantPet - A full-stack web application for the plant obsessed, plant newbies, a
 ## Deployed Website
 
 Hosted via Heroku: https://plantpet.herokuapp.com/
+
+
+## Technology
+
+- React
+- HTML | CSS | Javascript
+- Python | Django
 
 
 ## Repositories
@@ -20,13 +30,6 @@ Hosted via Heroku: https://plantpet.herokuapp.com/
 - PlantPet 1.0 MERN full-stack app:
     - Front-End: https://github.com/angelafrancisco/plant-front-end
     - Back-End: https://github.com/angelafrancisco/plant-back-end
-
-
-## Technology
-
-- React
-- HTML/CSS/SASS
-- Django/Python
 
 
 ## User Stories
@@ -88,11 +91,8 @@ These are additions I wasn't able to get to within project timeframe, but want t
 
 ## Credits
 
-- Favicon and Logo 
-    - [Favicon.io](https://favicon.io/emoji-favicons/potted-plant)
-- Icons 
-    - [FontAwesome](https://fontawesome.com/icons)
-    - [Flaticon](https://www.flaticon.com/) via [Freepik](https://www.freepik.com) 
-- Photos 
+- Favicon and Logo: [Favicon.io](https://favicon.io/emoji-favicons/potted-plant)
+- Icons: [FontAwesome](https://fontawesome.com/icons), [Flaticon](https://www.flaticon.com/) via [Freepik](https://www.freepik.com) 
+- Photos:
     - [Rainier Ridao](https://unsplash.com/@rainierridao?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
     - [Angèle Kamp](https://unsplash.com/@angelekamp?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/plants?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
