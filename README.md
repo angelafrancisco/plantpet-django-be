@@ -2,7 +2,7 @@
 
 **Week 10: April 2022. Project #4 for General Assembly.**
 
-_(Note: This project is a continuation of my previous MERN full-stack app, utilizing React and Django instead of React and Node/Express.)_
+_(Note: This project is a continuation of my previous MERN full-stack app, utilizing React + Python/Django instead of React + Node/Express.)_
 
 ![languages-used](https://img.shields.io/github/languages/count/angelafrancisco/plantpet-django-be)
 ![languages-top-count](https://img.shields.io/github/languages/top/angelafrancisco/plantpet-django-be?color=brightgreen)
