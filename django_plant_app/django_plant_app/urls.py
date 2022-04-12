@@ -20,6 +20,5 @@ from django.conf.urls import include
 
 urlpatterns = [
     path('api/plants/', include('plant_api.urls')),
-    # path('api/status/', include('status_api.urls')),
     path('admin/', admin.site.urls),
 ]
