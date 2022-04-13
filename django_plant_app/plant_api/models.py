@@ -12,7 +12,7 @@ class Plant(models.Model):
 
 
 class Status(models.Model):
-    # plant = models.ForeignKey(Plant, on_delete=models.CASCADE)
+    plant = models.ForeignKey(Plant, on_delete=models.CASCADE)
     created_date = models.DateField(auto_now_add=True)
     # image = models.ImageField  # might start as url first
     HealthChoices = models.TextChoices('HealthChoices', 'Poor Good Excellent')

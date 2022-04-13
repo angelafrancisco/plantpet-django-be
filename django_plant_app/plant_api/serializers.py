@@ -17,5 +17,5 @@ class StatusSerializer(serializers.ModelSerializer):
         # tell django which model to use
         model = Status
         # tell django which fields to include
-        fields = ('id', 'created_date', 'image', 'health', 'notes',)
+        fields = ('id', 'plant', 'created_date', 'health', 'notes',)
 

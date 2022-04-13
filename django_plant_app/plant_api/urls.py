@@ -7,5 +7,5 @@ urlpatterns = [
     # '/plants/id' will be routed to the PlantDetail view for handling
     path('plants/<int:pk>', views.PlantDetail.as_view(), name='plant_detail'),
     path('status/', views.StatusList.as_view(), name='status_list'),
-    path('status/<int:pk>', views.StatusDetail.as_view(), name='status_detail')
+    path('plants/<int:pk>/status', views.StatusDetail.as_view(), name='status_detail')
 ]
