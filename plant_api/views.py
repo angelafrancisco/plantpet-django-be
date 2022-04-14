@@ -4,8 +4,10 @@ from django.shortcuts import render
 from rest_framework import generics
 from .serializers import PlantSerializer
 from .serializers import StatusSerializer
+from .serializers import TaskSerializer
 from .models import Plant
 from .models import Status
+from .models import Task
 
 class PlantList(generics.ListCreateAPIView):
     # tell django how to retrieve all objects from the DB, order by id ascending
@@ -17,10 +19,17 @@ class PlantDetail(generics.RetrieveUpdateDestroyAPIView):
     serializer_class = PlantSerializer
 
 class StatusList(generics.ListCreateAPIView):
-    # tell django how to retrieve all objects from the DB, order by id ascending
     queryset = Status.objects.all().order_by('id')
-    serializer_class = StatusSerializer  # tell django what serializer to use
+    serializer_class = StatusSerializer
 
 class StatusDetail(generics.RetrieveUpdateDestroyAPIView):
     queryset = Status.objects.all().order_by('id')
     serializer_class = StatusSerializer
+
+class TaskList(generics.ListCreateAPIView):
+    queryset = Task.objects.all().order_by('id')
+    serializer_class = TaskSerializer
+
+class TaskDetail(generics.RetrieveUpdateDestroyAPIView):
+    queryset = Task.objects.all().order_by('id')
+    serializer_class = TaskSerializer
