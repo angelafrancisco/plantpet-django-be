@@ -9,7 +9,7 @@ class PlantSerializer(serializers.ModelSerializer):
         # tell django which model to use
         model = Plant  
         # tell django which fields to include
-        fields = ('id', 'name', 'type', 'image', 'pot_size', 'room_name', 'direction', 'notes',)
+        fields = ('id', 'name', 'type', 'image', 'size', 'room', 'direction', 'notes',)
 
 
 class StatusSerializer(serializers.ModelSerializer):
@@ -17,7 +17,7 @@ class StatusSerializer(serializers.ModelSerializer):
         # tell django which model to use
         model = Status
         # tell django which fields to include
-        fields = ('id', 'plant', 'created_date', 'health', 'notes',)
+        fields = ('id', 'plant', 'created', 'health', 'notes',)
 
 
 class TaskSerializer(serializers.ModelSerializer):
@@ -25,4 +25,4 @@ class TaskSerializer(serializers.ModelSerializer):
         # tell django which model to use
         model = Task
         # tell django which fields to include
-        fields = ('id', 'plant', 'created_date', 'schedule', 'due_date', 'completed',)
+        fields = ('id', 'plant', 'created', 'schedule', 'due', 'completed',)
