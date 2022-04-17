@@ -10,19 +10,20 @@ class Plant(models.Model):
     DirectionChoices = models.TextChoices('DirectionChoices', 'North, South, East, West')
     direction = models.CharField(choices=DirectionChoices.choices, max_length=5)
     notes = models.CharField(max_length=100, blank=True)
+    task = models.BooleanField(default=False)
 
 
 class Status(models.Model):
     plant = models.ForeignKey(Plant, on_delete=models.CASCADE)
-    created = models.DateField(auto_now_add=True)
+    created = models.CharField(max_length=10)
     HealthChoices = models.TextChoices('HealthChoices', 'Poor Good Excellent')
     health = models.CharField(choices=HealthChoices.choices, max_length=9)
     notes = models.CharField(max_length=100, blank=True)
 
 
-class Task(models.Model):
-    plant = models.ForeignKey(Plant, on_delete=models.CASCADE)
-    created = models.DateField(auto_now_add=True)
-    schedule = models.PositiveIntegerField()
-    due = models.DateField()
-    completed = models.BooleanField(default=False)
+# class Task(models.Model):
+#     plant = models.ForeignKey(Plant, on_delete=models.CASCADE)
+#     created = models.DateField(auto_now_add=True)
+#     schedule = models.PositiveIntegerField()
+#     due = models.DateField()
+#     completed = models.BooleanField(default=False)
