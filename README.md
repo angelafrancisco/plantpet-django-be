@@ -38,6 +38,7 @@ Hosted via Heroku: https://plantpet.herokuapp.com/
 - User can add plants to their "My Plants" section, creating a name, adding plant type, image url, room name, window direction, and notes about plant.
 - Once a plant is added, user can edit or delete plant.
 - User can complete watering tasks in their "My Tasks" section, as they are auto-generated after creating a new plant.
+- User can add a plant status for any plant, adding status date, plant health (poor/good/excellent), and notes.
 
 
 ## GA Project Requirements (MVP)
@@ -51,10 +52,10 @@ Hosted via Heroku: https://plantpet.herokuapp.com/
 - A `README.md` file with explanations of the technologies used, the approach taken, unsolved problems, user stories, and notes
 - Links to hosted and working apps
 
+
 ## Project Stretch Goals
 
 - Wireframing (created via Figma)
-- SASS
 - Favicon/Logo
 - Plant modals (add new plant / edit plant)
 - Form dropdown menu
@@ -72,7 +73,6 @@ These are additions I wasn't able to get to within project timeframe, but want t
 - API: It was difficult to find a public plant API that worked for my project. Hoping to expand on this later on.
 - Model Updates:
     - Plant:
-        - default image
         - `pet_friendly = models.BooleanField` (possibly based on toxicity level)
         - `maintenance = ? ` (possibly based on hardiness)
     - Task (Water):
